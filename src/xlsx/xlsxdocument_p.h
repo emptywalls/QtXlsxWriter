@@ -62,6 +62,7 @@ public:
     QMap<QString, QString> documentProperties; //core, app and custom properties
     QSharedPointer<Workbook> workbook;
     QSharedPointer<ContentTypes> contentTypes;
+    bool loaded;
 };
 
 }
